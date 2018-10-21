@@ -3,7 +3,7 @@
     <div>
       <logo/>
       <h1 class="title">
-        <nuxt-link to="/test">{{ title }}</nuxt-link>
+        <nuxt-link to="/">{{ title }}</nuxt-link>
       </h1>
       <h2 class="subtitle">
         My world-class Nuxt.js project
@@ -30,8 +30,8 @@ export default {
     Logo
   },
   asyncData() {
-    console.log('render from server with index.vue')
-    return { title: '这里是主页' }
+    console.log('render from server with test.vue')
+    return { title: '这里是测试页面' }
   }
 }
 </script>

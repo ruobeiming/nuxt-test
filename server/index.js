@@ -34,8 +34,6 @@ async function start() {
             'id|+1': 1
         }]
     })
-    // 输出结果
-    console.log(JSON.stringify(data, null, 4))
     ctx.body = data;
     next();
   });
